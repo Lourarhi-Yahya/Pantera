@@ -1,0 +1,10 @@
+# Next.js build output
+.next/
+
+# Local dev / preview deploy folder
+pantera-architecture/
+
+# Logs & system files
+npm-debug.log*
+.DS_Store
+Thumbs.db
