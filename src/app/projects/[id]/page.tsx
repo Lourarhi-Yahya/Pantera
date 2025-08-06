@@ -24,9 +24,9 @@ const projectData: { [key: string]: any } = {
     features: ['Cable-stayed main span', 'Pedestrian walkways', 'Iconic night illumination', 'Panoramic river views'],
     images: [
       '/images/R.jpeg',
-      '/images/R.jpeg',
-      '/images/R.jpeg',
-      '/images/R.jpeg'
+      '/images/Vimi-Infrastuctures.jpg',
+      '/images/204f3bef5e851991d09381152389a2c3.jpg',
+      '/images/b181_4.jpg'
     ]
   },
   '102': {
@@ -46,9 +46,9 @@ const projectData: { [key: string]: any } = {
     features: ['Mixed-use floors', 'Luxury offices', 'Retail promenade', 'Panoramic elevators'],
     images: [
       '/images/marina-tower-casablanca-05-scaled.jpg',
-      '/images/marina-tower-casablanca-05-scaled.jpg',
-      '/images/marina-tower-casablanca-05-scaled.jpg',
-      '/images/marina-tower-casablanca-05-scaled.jpg'
+      '/images/marina-tower-casablanca-04-scaled.jpg',
+      '/images/MARINA_01-scaled.jpg',
+      '/images/3199.jpg'
     ]
   },
 
@@ -64,13 +64,14 @@ const projectData: { [key: string]: any } = {
     architect: 'Alexandra Martinez',
     description: 'A luxury residential complex that redefines urban living in Los Angeles. This iconic project combines contemporary design, sustainable technologies, and exceptional panoramic city views.',
     challenge: 'Create premium living spaces while respecting strict urban constraints and maximizing city views.',
-    solution: 'Terraced architecture with suspended gardens, smart glass facades, and integrated common spaces.',
-    materials: ['High-performance glass', 'Structural steel', 'Reinforced concrete', 'FSC certified wood'],
+    solution: 'Innovative floor plans, floor-to-ceiling windows, and eco-friendly amenities.',
+    materials: ['Glass', 'Steel', 'Concrete', 'Solar panels'],
     features: ['150 residential units', 'Rooftop pool', 'Integrated green spaces', 'Underground parking', 'Water recovery system'],
     images: [
       'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'
     ]
   },

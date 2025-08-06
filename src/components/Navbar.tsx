@@ -83,16 +83,7 @@ export default function Navbar() {
               Start Your Project
             </Link>
           </div>
-          <div className="lg:hidden">
-            <button
-              type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-pantera-charcoal hover:text-pantera-gold transition-colors duration-200"
-              onClick={() => setMobileMenuOpen(true)}
-            >
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-            </button>
-          </div>
+          
         </div>
       </nav>
 
