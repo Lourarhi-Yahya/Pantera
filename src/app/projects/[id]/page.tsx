@@ -7,6 +7,51 @@ import ProjectImageCarousel from '@/components/ProjectImageCarousel'
 
 // Mock data - in a real app, this would come from a database or API
 const projectData: { [key: string]: any } = {
+  '101': {
+    id: 101,
+    title: 'Rabat Iconic Bridge',
+    location: 'Rabat, Morocco',
+    category: 'urban',
+    year: '2024',
+    size: '350 meters',
+    status: 'In Progress',
+    client: 'Bouregreg Valley Development Agency',
+    architect: 'Marc Mimram',
+    description: 'A landmark cable-stayed bridge spanning the Bouregreg river, symbolizing the connection between Rabat and Salé with modern Moroccan design.',
+    challenge: 'Integrate advanced engineering with aesthetic harmony and minimal environmental impact.',
+    solution: 'Elegant cable-stayed structure with pedestrian and vehicle lanes, iconic night lighting, and landscaped approaches.',
+    materials: ['Steel cables', 'Reinforced concrete', 'Architectural lighting', 'Stone paving'],
+    features: ['Cable-stayed main span', 'Pedestrian walkways', 'Iconic night illumination', 'Panoramic river views'],
+    images: [
+      '/images/R.jpeg',
+      '/images/R.jpeg',
+      '/images/R.jpeg',
+      '/images/R.jpeg'
+    ]
+  },
+  '102': {
+    id: 102,
+    title: 'Casablanca Marina Tower',
+    location: 'Casablanca, Morocco',
+    category: 'commercial',
+    year: '2023',
+    size: '50,000 sq m',
+    status: 'Completed',
+    client: 'Marina Casablanca',
+    architect: 'Tebas Coiduras',
+    description: 'A high-rise tower overlooking the Atlantic, designed for mixed-use with luxury offices and retail, forming a new icon on Casablanca’s skyline.',
+    challenge: 'Create a modern landmark that balances commercial needs with architectural elegance on the waterfront.',
+    solution: 'Sleek glass façade, panoramic sea views, and premium amenities for business and leisure.',
+    materials: ['Glass curtain wall', 'Steel frame', 'High-performance concrete', 'Natural stone'],
+    features: ['Mixed-use floors', 'Luxury offices', 'Retail promenade', 'Panoramic elevators'],
+    images: [
+      '/images/marina-tower-casablanca-05-scaled.jpg',
+      '/images/marina-tower-casablanca-05-scaled.jpg',
+      '/images/marina-tower-casablanca-05-scaled.jpg',
+      '/images/marina-tower-casablanca-05-scaled.jpg'
+    ]
+  },
+
   '1': {
     id: 1,
     title: 'Skyline Residences',
@@ -219,21 +264,23 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
           <div className="absolute inset-0 bg-black/30" />
           
           {/* Project Title Overlay */}
-          <div className="absolute bottom-8 left-8 text-white z-10">
-            <h1 className="font-display text-4xl md:text-5xl font-bold mb-2">
-              {project.title}
-            </h1>
-            <div className="flex items-center gap-4 text-lg">
-              <div className="flex items-center gap-1">
-                <MapPinIcon className="w-5 h-5" />
-                {project.location}
-              </div>
-              <div className="flex items-center gap-1">
-                <CalendarIcon className="w-5 h-5" />
-                {project.year}
-              </div>
-            </div>
-          </div>
+          <div className="absolute bottom-8 left-8 z-10">
+  <div className="bg-white/80 px-6 py-4 rounded-lg shadow-lg">
+    <h1 className="font-display text-4xl md:text-5xl font-bold mb-2 text-pantera-charcoal">
+      {project.title}
+    </h1>
+    <div className="flex items-center gap-4 text-lg text-pantera-gray-warm">
+      <div className="flex items-center gap-1">
+        <MapPinIcon className="w-5 h-5" />
+        {project.location}
+      </div>
+      <div className="flex items-center gap-1">
+        <CalendarIcon className="w-5 h-5" />
+        {project.year}
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </section>
 
@@ -307,7 +354,7 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
                     <p className="text-pantera-gray-warm">{project.size}</p>
                   </div>
                   <div>
-                    <span className="font-medium text-pantera-charcoal">Statut:</span>
+                    <span className="font-medium text-pantera-charcoal">Status:</span>
                     <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ml-2 ${
                       project.status === 'Terminé' 
                         ? 'bg-green-100 text-green-800' 

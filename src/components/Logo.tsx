@@ -38,22 +38,19 @@ export default function Logo({ className = '', size = 'md', showText = true, var
           xmlns="http://www.w3.org/2000/svg"
           className="w-full h-full"
         >
-          {/* Architectural building silhouette */}
-          <g className="fill-pantera-gold">
-            {/* Main building structure */}
-            <path d="M8 32V18L20 8L32 18V32H28V22H24V32H20V26H16V32H12V20H8V32Z" />
-            
-            {/* Geometric accent lines */}
-            <path d="M4 36H36M20 4V8M12 14L20 8L28 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-            
-            {/* Windows/details */}
-            <rect x="10" y="24" width="2" height="2" />
-            <rect x="14" y="24" width="2" height="2" />
-            <rect x="26" y="24" width="2" height="2" />
-            <rect x="30" y="24" width="2" height="2" />
-            
-            {/* P letter integration */}
-            <path d="M6 12V8H10C11.1 8 12 8.9 12 10C12 11.1 11.1 12 10 12H8V16H6V12Z" />
+          {/* Simple bridge icon */}
+          <g stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="stroke-pantera-gold">
+            {/* Bridge arch */}
+            <path d="M6 28 Q20 10 34 28" fill="none" />
+            {/* Bridge deck */}
+            <line x1="6" y1="28" x2="34" y2="28" />
+            {/* Bridge pillars */}
+            <line x1="10" y1="28" x2="10" y2="34" />
+            <line x1="20" y1="28" x2="20" y2="34" />
+            <line x1="30" y1="28" x2="30" y2="34" />
+            {/* Suspension cables */}
+            <line x1="10" y1="28" x2="20" y2="16" />
+            <line x1="30" y1="28" x2="20" y2="16" />
           </g>
         </svg>
       </div>

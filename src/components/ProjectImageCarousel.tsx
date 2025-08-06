@@ -21,15 +21,15 @@ export default function ProjectImageCarousel({ images, title }: ProjectImageCaro
   }
 
   return (
-    <div className="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
+    <div className="relative w-full h-[350px] md:h-[500px] bg-gray-100 rounded-lg overflow-hidden">
       <motion.img
         key={currentImageIndex}
         src={images[currentImageIndex]}
         alt={`${title} - Image ${currentImageIndex + 1}`}
-        className="w-full h-full object-cover"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.6 }}
+        className="object-cover object-center w-full h-full"
       />
       
       {/* Navigation Buttons */}

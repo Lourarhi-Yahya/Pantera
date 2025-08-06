@@ -28,11 +28,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="heading-xl text-white mb-8">
-            Shaping America's Skylines
-            <span className="block gradient-text mt-4 text-6xl md:text-7xl lg:text-8xl">
-              with Vision & Precision
-            </span>
+          <h1 className="heading-xl text-pantera-gold mb-10">
+            Lead in architecture and interior design
           </h1>
           <p className="text-xl md:text-2xl text-pantera-beige/90 mb-12 max-w-3xl leading-relaxed">
             Transforming urban landscapes across America with innovative design, 

@@ -7,6 +7,28 @@ import { MapPinIcon, CalendarIcon } from '@heroicons/react/24/outline'
 
 const projects = [
   {
+    id: 101,
+    title: 'Rabat Iconic Bridge',
+    location: 'Rabat, Morocco',
+    category: 'urban',
+    year: '2024',
+    image: '/images/R.jpeg',
+    description: 'A landmark bridge connecting the banks of the Bouregreg river, blending modern engineering with Moroccan design motifs.',
+    size: '350 meters',
+    status: 'In Progress'
+  },
+  {
+    id: 102,
+    title: 'Casablanca Marina Tower',
+    location: 'Casablanca, Morocco',
+    category: 'commercial',
+    year: '2023',
+    image: '/images/marina-tower-casablanca-05-scaled.jpg',
+    description: 'A high-rise tower overlooking the Atlantic, designed for mixed-use with luxury offices and retail.',
+    size: '50,000 sq m',
+    status: 'Completed'
+  },
+  {
     id: 1,
     title: 'Skyline Residences',
     location: 'Los Angeles, CA',
