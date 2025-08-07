@@ -718,28 +718,6 @@ const projectData: { [key: string]: any } = {
       'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'
     ]
   },
-  '21': {
-    id: 21,
-    title: 'Urban Greenhouse Center',
-    location: 'Minneapolis, MN',
-    category: 'community',
-    year: '2024',
-    size: '40,000 sq ft',
-    status: 'In Progress',
-    client: 'Minneapolis Urban Initiatives',
-    architect: 'Laura Jensen',
-    description: 'Urban greenhouse and community center supporting sustainable agriculture and local engagement.',
-    challenge: 'Integrate advanced greenhouse technology with community spaces in a dense urban environment.',
-    solution: 'Hybrid structure combining passive solar design, hydroponics, and flexible event spaces.',
-    materials: ['Glass panels', 'Recycled steel', 'Green roofing', 'Sustainable wood'],
-    features: ['Hydroponic greenhouse', 'Community classrooms', 'Farmers market space', 'Event pavilion', 'Rooftop gardens'],
-    images: [
-      'https://images.unsplash.com/photo-1464983953574-0892a716854b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1465101178521-c1a9136a3c8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'
-    ]
-  },
   '50': {
     id: 50,
     title: 'Luxury Transitional Living Room',
