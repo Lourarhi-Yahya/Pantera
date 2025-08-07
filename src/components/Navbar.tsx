@@ -80,7 +80,7 @@ export default function Navbar() {
               href="/contact"
               className="bg-pantera-gold text-white px-6 py-2 rounded-lg font-semibold hover:bg-pantera-gold/90 transform hover:scale-105 transition-all duration-200 shadow-md hover:shadow-lg"
             >
-              Start Your Project
+              Book a Consultation
             </Link>
           </div>
           
@@ -137,7 +137,7 @@ export default function Navbar() {
                       className="btn-primary w-full text-center block"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-          Start a Project
+          Book a Consultation
                     </Link>
                   </div>
                 </div>

@@ -31,7 +31,7 @@ export default function Hero() {
           <h1 className="heading-xl text-pantera-gold mb-10">
             Lead in architecture and interior design
           </h1>
-          <p className="text-xl md:text-2xl text-pantera-beige/90 mb-12 max-w-3xl leading-relaxed">
+          <p className="text-xl md:text-2xl text-pantera-beige/90 mb-12 max-w-3xl leading-relaxed text-center">
             Transforming urban landscapes across America with innovative design, 
             sustainable solutions, and architectural excellence that defines the future of living.
           </p>
@@ -40,7 +40,7 @@ export default function Hero() {
               href="/projects" 
               className="btn-primary inline-flex items-center justify-center text-lg px-10 py-5"
             >
-              Explore Our Work
+              Book a Consultation
               <ArrowRightIcon className="ml-3 w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
             </Link>
           </div>

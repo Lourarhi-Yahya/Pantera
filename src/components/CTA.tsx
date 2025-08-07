@@ -27,7 +27,7 @@ export default function CTA() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/contact" className="btn-primary">
-              Start a Project
+              Book a Consultation
             </Link>
             <Link href="/projects" className="btn-secondary">
               View Our Portfolio
